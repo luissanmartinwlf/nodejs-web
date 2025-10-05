@@ -1,0 +1,9 @@
+{
+  "name": "nodejs-web",
+  "version": "1.0.0",
+  "description": "Servidor web simplee con Node.js para la actividad de contenedores",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
