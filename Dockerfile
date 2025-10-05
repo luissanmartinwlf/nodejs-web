@@ -15,13 +15,13 @@ WORKDIR /usr/src/app
 # 5. Copiar package.json y package-lock.json para aprovechar el cache de Docker
 COPY package*.json ./
 
-# 6. Instalar las dependencias de producción
+# 6. Instalar las dependencias
 RUN npm install --omit=dev
 
 # 7. Copiar el resto del código de la aplicación
 COPY . .
 
-# 8. La imagen de Node.js ya crea un usuario no-root llamado 'node'. Lo usaremos por seguridad.
+# 8. La imagen de Node.js ya crea un usuario no-root llamado 'node'.
 USER node
 
 # 9. Exponer el puerto 3000 en el que corre la aplicación
