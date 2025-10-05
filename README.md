@@ -31,7 +31,7 @@ Para ejecutar este proyecto, necesitas tener **Docker Desktop** instalado y en e
 ### 1. Clonar el Repositorio
 
 ```bash
-git clone [https://github.com/TU_USUARIO/NOMBRE_DEL_REPO.git](https://github.com/TU_USUARIO/NOMBRE_DEL_REPO.git)
+git clone [https://github.com/luissanmartinwlf/nodejs-web.git](https://github.com/luissanmartinwlf/nodejs-web.git)
 cd NOMBRE_DEL_REPO/nodejs-web
 ```
 
